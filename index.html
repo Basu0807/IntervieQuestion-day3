@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>DAY-3</h1>
+    <h2><u>1. Write a code to insert an image ?</u></h2>
+    <img
+      src="./desktop_wallpaper__26-560.jpg"
+      alt="this is lion picture"
+      height="300"
+      width="500"
+    />
+
+    <h2>
+      <u
+        >2. Create a form contain input fields like name age email and
+        contact</u
+      >
+    </h2>
+    <h3>FORM</h3>
+    <form action="">
+      <label for="name">Enter full name :</label>
+      <input
+        type="text"
+        name="fullname"
+        id="name"
+        placeholder="eg-JOHN"
+      /><br />
+      <label for="age">AGE :</label>
+      <input type="number" name="age" id="age" placeholder="eg-25" /><br />
+      <label for="email">EMAIL :</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="xyz@gmail.com"
+      /><br />
+      <label for="contact">contact number :</label>
+      <input
+        type="tel"
+        name="contact number"
+        id="contact"
+        maxlength="10"
+        placeholder="0123456789"
+      />
+    </form>
+    <h2><u>3. Create a table and explain how to acheive colspan ?</u></h2>
+
+    <table border="1">
+      <tr>
+        <th>NAME</th>
+        <th>AGE</th>
+        <th>DEPARTMENT</th>
+        <th>SALARY</th>
+      </tr>
+      <tr>
+        <td>john</td>
+        <td>25</td>
+        <td>payroll</td>
+        <td>25000</td>
+      </tr>
+      <tr>
+        <td>max</td>
+        <td>28</td>
+        <td>HR</td>
+        <td>35000</td>
+      </tr>
+      <tr>
+        <td>peter</td>
+        <td>27</td>
+        <td>inventory</td>
+        <td>20000</td>
+      </tr>
+    </table>
+    <br />
+    <b
+      >The colspan attribute defines the number of columns a table cell should
+      span. Here example of colspan=3</b
+    ><br />
+    <table border="1">
+      <tr>
+        <th>NAME</th>
+        <th>AGE</th>
+        <th>DEPARTMENT</th>
+        <th>SALARY</th>
+      </tr>
+      <tr>
+        <td>john</td>
+        <td>25</td>
+        <td>payroll</td>
+        <td>25000</td>
+      </tr>
+      <tr>
+        <td>max</td>
+        <td>28</td>
+        <td>HR</td>
+        <td>35000</td>
+      </tr>
+      <tr>
+        <td>peter</td>
+        <td>27</td>
+        <td>inventory</td>
+        <td>20000</td>
+      </tr>
+      <tr>
+        <td colspan="3">TOTAL SALARY</td>
+        <td>80000</td>
+        t
+      </tr>
+    </table>
+
+    <h2>
+      4. Create one form that contain name input, password input, 3 radio
+      buttons(HTML,CSS,JS), 2 checkboxes(cricket, football, hockey) and one
+      submit button . When you click on that button the value should be shown in
+      the URL
+    </h2>
+    <form action="">
+      <label for="name">Enter full name</label>
+      <input type="text" name="fullname" id="name" /><br />
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" /><br />
+      Language :-
+      <label for="language1">HTML</label>
+      <input type="radio" name="language" id="language1" value="HTML" />
+      <label for="language2">CSS</label>
+      <input type="radio" name="language" id="language2" value="CSS" />
+      <label for="language3">JS</label>
+      <input type="radio" name="language" id="language3" value="JS" /><br />
+      GAMES:- <br />
+      <label for="games1">Criket</label>
+      <input type="checkbox" name="games1" id="games1" value="criket" />
+      <label for="games2">football</label>
+      <input type="checkbox" name="games2" id="games2" value="football" />
+      <label for="games3">hockey</label>
+      <input type="checkbox" name="games3" id="games3" value="hockey" /><br />
+      <input type="submit" style="color: blue" />
+    </form>
+  </body>
+</html>
